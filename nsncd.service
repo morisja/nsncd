@@ -16,6 +16,7 @@
 Description=name-service non-caching daemon
 
 [Service]
+EnvironmentFile=-/etc/default/nsncd
 ExecStart=/usr/lib/nsncd
 User=nscd
 Group=nscd
